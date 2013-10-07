@@ -1,0 +1,56 @@
+header {
+  font-family: 'Bitter', serif ;
+  color: red;
+
+  background-image: linear-gradient(bottom, rgb(95,161,234) 42%, rgb(124,194,255) 71%, rgb(162,233,255) 86%);
+  background-image: -o-linear-gradient(bottom, rgb(95,161,234) 42%, rgb(124,194,255) 71%, rgb(162,233,255) 86%);
+  background-image: -moz-linear-gradient(bottom, rgb(95,161,234) 42%, rgb(124,194,255) 71%, rgb(162,233,255) 86%);
+  background-image: -webkit-linear-gradient(bottom, rgb(95,161,234) 42%, rgb(124,194,255) 71%, rgb(162,233,255) 86%);
+  background-image: -ms-linear-gradient(bottom, rgb(95,161,234) 42%, rgb(124,194,255) 71%, rgb(162,233,255) 86%);
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.42, rgb(95,161,234)),
+    color-stop(0.71, rgb(124,194,255)),
+    color-stop(0.86, rgb(162,233,255))
+      );
+
+
+ border-bottom: solid 10px #5FA1EA;
+          padding-bottom: 10px;
+
+      }
+
+nav { float: left; margin: 0px 0px;}
+img {margin: 0px 30px 30px 0px;}
+/*p { float: right; margin: 0px 30px 30px 0px;}*/
+
+.fix { clear: both;}
+.left {float: left; padding: 0;}
+.right {float: right; padding: 0;}
+
+article {
+
+    border-bottom: 10px solid #5FA1EA;
+    font-family: 'Bitter', serif;
+
+      }
+
+
+/*  background-image: linear-gradient(bottom, rgb(176,184,165) 20%, rgb(150,205,230) 60%, rgb(186,181,255) 80%);
+  background-image: -o-linear-gradient(bottom, rgb(176,184,165) 20%, rgb(150,205,230) 60%, rgb(186,181,255) 80%);
+  background-image: -moz-linear-gradient(bottom, rgb(176,184,165) 20%, rgb(150,205,230) 60%, rgb(186,181,255) 80%);
+  background-image: -webkit-linear-gradient(bottom, rgb(176,184,165) 20%, rgb(150,205,230) 60%, rgb(186,181,255) 80%);
+  background-image: -ms-linear-gradient(bottom, rgb(176,184,165) 20%, rgb(150,205,230) 60%, rgb(186,181,255) 80%);
+
+  background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0.2, rgb(176,184,165)),
+  color-stop(0.6, rgb(150,205,230)),
+  color-stop(0.8, rgb(186,181,255))
+);*/
+
